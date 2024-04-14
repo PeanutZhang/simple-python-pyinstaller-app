@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('Build') {
 
-            agent  { none 'python:3.9' }
             steps {
                 echo "fffkukuku"
                 script {
