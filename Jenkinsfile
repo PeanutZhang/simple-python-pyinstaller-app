@@ -1,5 +1,9 @@
 pipeline {
+    agent {
+        label 'mac'
+    }
     stages {
+
         stage('Build') {
             steps {
                 echo "fffkukuku"
