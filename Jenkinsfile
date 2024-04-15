@@ -1,7 +1,9 @@
 pipeline {
     agent any
     stages {
-
+         docker {
+            image 'python:latest'
+        }
         stage('Build') {
             steps {
                 echo "fffkukuku"
