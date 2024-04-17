@@ -11,9 +11,7 @@ pipeline {
                 sh 'python -m py_compile sources/add2vals.py sources/calc.py'
             }
         }
-    }
-
-    stage('Test') {
+        stage('Test') {
             agent {
                 docker {
                     image 'qnib/pytest'
@@ -28,4 +26,7 @@ pipeline {
                 }
             }
         }
+    }
+
+
 }
