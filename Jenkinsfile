@@ -9,7 +9,7 @@ pipeline {
 
          echo 'Hello World'
          echo '=========================================='
-         echo 'env.workspece =  ${env.WORKSPACE}'
+         echo "env.workspece =  ${env.WORKSPACE}"
 
         }
 
