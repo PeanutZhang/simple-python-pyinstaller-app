@@ -8,6 +8,8 @@ pipeline {
         steps {
 
          echo 'Hello World'
+         echo '=========================================='
+         echo 'env.workspece =  ${env.WORKSPACE}'
 
         }
 
