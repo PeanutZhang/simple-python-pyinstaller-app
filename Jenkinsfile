@@ -21,6 +21,7 @@ pipeline {
                 echo '+++++++++++++++++++++++++++++++++++'
                 echo "env.branchName =${env.BRANCH_NAME}"
                 echo "env.BUILD_ID = ${env.BUILD_ID}"
+                echo "evn.path= ${env.PATH}"
                 echo "env.BUILD_NUMBER = ${env.BUILD_NUMBER}"
                 echo   "env.JOB_NAME = ${env.JOB_NAME}"
                 echo "env.JENKINS_HOME= ${env.JENKINS_HOME}"
